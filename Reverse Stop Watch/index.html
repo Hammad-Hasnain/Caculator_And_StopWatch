@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- Stop Watch Start -->
+    <main class="main">
+        <h1 class="stopWatchHeading">Stop Watch</h1>
+        <div class="stopWatch">
+            <div class="stopWatchDigits">
+                <h2 id="hrs">23 </h2>
+                <h2 id="mins"> 59 </h2>
+                <h2 id="secs"> 59 </h2>
+                <h2 id="ms"> 99</h2>
+            </div>
+            <div class="stopWatchBtns">
+                <button onclick="start()" id="start">Start</button>
+                <button onclick="stop()" id="stop">Stop</button>
+                <button onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Stop Watch End -->
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
